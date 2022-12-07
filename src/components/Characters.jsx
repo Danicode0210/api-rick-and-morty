@@ -21,15 +21,13 @@ export const Characters = () => {
   return (
     <div className="row mt-4">
         {character.map((item,index) =>
-        <div key={index} className="col-4" >
+        <div key={index} className="col" >
             <div className="card" >
                 <img src={item.image} alt="" />
             </div>
-            <div className="card-body">
+            <div className="card-body mt-2">
                 <h5>{item.name}</h5>
-                <hr />
                 <p>Especie: {item.species}</p>
-                <p>Location: {item.location.name}</p>
             </div>
 
         </div>

@@ -5,6 +5,7 @@ export const Navbar = ({ brand }) => {
     <nav className="navbar navbar-dark bg-dark">
       <div className="container">
       <img className="logo" src={logo}/>
+      <input type="search"  className="" name="" id="" />
         <a className="navbar-brand text-uppercase" href="/">
          {brand}
         </a>

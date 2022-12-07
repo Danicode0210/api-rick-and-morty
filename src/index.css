@@ -1,20 +1,28 @@
-#root{
+#root {
   background-color: black;
 }
-.logo{
+.logo {
   max-width: 200px;
 }
-.card{
+.card {
   border: none;
   max-width: 200px;
   background: none;
 }
-.card img{
+.card img {
   border-radius: 100px;
+  box-shadow: 10px 1px #00b0c8;
 }
 
-.card-body{
+.card-body {
   background: white;
-    border: none;
-    border-radius: 26px;
+  border: none;
+  border-radius: 8px;
+}
+.card-body h5,p {
+  text-align: center;
+}
+
+.card-body h5{
+  color: #0f515a;
 }
